@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina acceso</title>
+    <link rel="stylesheet" href="styles.css" /> <!--Acá es donde pongo el tema de estilos-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    /> <!--Este href es el link para trabajar con bootstrap-->
+  </head>
+  <body class="d-flex justify-content-center align-items-center vh-100"> <!--vh 100 hace que el body tome el 100% de la pagina, contenido y items al centro-->
+    <div
+      class="bg-light p-5 rounded-5 text-dark shadow"
+      style="width: 25rem"
+    > <!--Acá estoy organizando el contenedor de los inputs en color blanco, con los bordes redondeados y todo el texto negro-->
+      <div class="d-flex justify-content-center">
+        <img
+          src="/assets/usuario.svg"
+          alt="login-icon"
+          style="height: 5rem"
+        />
+      </div>
+      <div class="text-center fs-2 fw-bold">Acceso</div>
+      <div class="input-group mt-4"> <!--mt es margin top-->
+        <div class="input-group-text bg-dark">
+          <img
+            src="/assets/username-icon.svg"
+            alt="username-icon"
+            style="height: 1rem"
+          />
+        </div>
+        <input
+          class="form-control bg-light"
+          type="text"
+          placeholder="Usuario"
+        />
+      </div>
+      <div class="input-group mt-1">
+        <div class="input-group-text bg-dark">
+          <img
+            src="/assets/password-icon.svg"
+            alt="password-icon"
+            style="height: 1rem"
+          />
+        </div>
+        <input
+          class="form-control bg-light"
+          type="password"
+          placeholder="Contraseña"
+        />
+      </div>
+      <div class="d-flex justify-content-around mt-1">
+        <div class="d-flex align-items-center gap-1">
+          <input class="form-check-input" type="checkbox" />
+          <div class="pt-1" style="font-size: 0.9rem">Recuérdame</div>
+        </div>
+        <div class="pt-1"> <!--pt 1 pading top 1-->
+          <a
+            href="#"
+            class="text-decoration-none text-info fw-semibold fst-italic"
+            style="font-size: 0.9rem"
+            >¿Olvidaste tu contraseña?</a
+          >
+        </div>
+      </div>
+      <div class="btn btn-dark text-white w-100 mt-4 fw-semibold shadow-sm">
+        Ingresar
+      </div>
+      <div class="d-flex gap-1 justify-content-center mt-1">
+        <div>¿Aún no tienes una cuenta?</div>
+        <a href="#" class="text-decoration-none text-info fw-semibold"
+          >Registrarse</a
+        >
+      </div>
+      <div class="d-flex gap-1 justify-content-center mt-2">
+        <div>Volver a la página de inicio</div>
+        <a href="#" class="text-decoration-none text-info fw-semibold"
+          >Inicio</a
+        >
+      </div>
+
+        
+    
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina registro</title>
+    <link rel="stylesheet" href="styles.css" /> <!--Acá es donde pongo el tema de estilos-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    /> <!--Este href es el link para trabajar con bootstrap-->
+  </head>
+  <body class="d-flex justify-content-center align-items-center vh-100"> <!--vh 100 hace que el body tome el 100% de la pagina, contenido y items al centro-->
+    <div
+      class="bg-light p-5 rounded-5 text-dark shadow"
+      style="width: 80rem"
+    > <!--Acá estoy organizando el contenedor de los inputs en color blanco, con los bordes redondeados y todo el texto negro-->
+      <div class="d-flex justify-content-center">
+        <img
+          src="/assets/Registro.svg"
+          alt="login-icon"
+          style="height: 4rem"
+        />
+      </div>
+      <div class="text-center fs-2 fw-bold">Registro</div>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="inputname1">Primer nombre</label>
+            <input type="text" class="form-control" id="inputname1" placeholder="Primer nombre">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputPassword4">Password</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">State</label>
+            <select id="inputState" class="form-control">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+    
+      
+  </body>
+</html>
