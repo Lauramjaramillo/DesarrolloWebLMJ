@@ -2,6 +2,11 @@
 body{ /* Acá le estoy poniendo el fondo a mi página web */
 background-image: url(https://www.todofondos.net/wp-content/uploads/1920x1080-Fondo-de-pantalla-HD-gris.jpg);
 }
+
+select, option, i{
+    font-family: "bootstrap-icons"
+  }
+
 .titulos {
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     font-size: 90px;
@@ -162,5 +167,26 @@ background-image: url(https://www.todofondos.net/wp-content/uploads/1920x1080-Fo
     flex-direction: column;
     justify-content: space-around;
     
+  }
+  
+  
+  
+  .imageninicio {
+    margin-top: 1rem;
+    border-radius: 2rem;
+    width: 500px;
+    
+    
+    
+    
+  }
+  
+  footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
   }
   

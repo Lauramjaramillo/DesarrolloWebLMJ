@@ -16,7 +16,7 @@
   <body class="d-flex justify-content-center align-items-center vh-100"> <!--vh 100 hace que el body tome el 100% de la pagina, contenido y items al centro-->
     <div
       class="bg-light p-5 rounded-5 text-dark shadow"
-      style="width: 80rem"
+      style="width: 60%"
     > <!--Acá estoy organizando el contenedor de los inputs en color blanco, con los bordes redondeados y todo el texto negro-->
       <div class="d-flex justify-content-center">
         <img
@@ -26,53 +26,61 @@
         />
       </div>
       <div class="text-center fs-2 fw-bold">Registro</div>
-      <form>
-        <div class="form-row">
-          <div class="form-group col-md-4">
+      <form>                    
+        <div class="row align-items-center mt-3 p-1">
+          <div class="form-group col">
             <label for="inputname1">Primer nombre</label>
             <input type="text" class="form-control" id="inputname1" placeholder="Primer nombre">
           </div>
-          <div class="form-group col-md-4">
-            <label for="inputPassword4">Password</label>
-            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+          <div class="form-group col">
+            <label for="inputname2">Segundo nombre</label>
+            <input type="text" class="form-control" id="inputname2" placeholder="Segundo nombre">
           </div>
         </div>
-        <div class="form-group">
-          <label for="inputAddress">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="form-group">
-          <label for="inputAddress2">Address 2</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputCity">City</label>
-            <input type="text" class="form-control" id="inputCity">
+        <div class="row align-items-center p-1">
+          <div class="form-group col">
+            <label for="inputlast1">Primer apellido</label>
+            <input type="text" class="form-control" id="inputlast1" placeholder="Primer apellido">
           </div>
-          <div class="form-group col-md-4">
-            <label for="inputState">State</label>
-            <select id="inputState" class="form-control">
-              <option selected>Choose...</option>
-              <option>...</option>
-            </select>
-          </div>
-          <div class="form-group col-md-2">
-            <label for="inputZip">Zip</label>
-            <input type="text" class="form-control" id="inputZip">
+          <div class="form-group col">
+            <label for="inputname2">Segundo apellido</label>
+            <input type="text" class="form-control" id="inputlast2" placeholder="Segundo apellido">
           </div>
         </div>
-        <div class="form-group">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Check me out
-            </label>
+        <div class="row align-items-center p-1">
+          <div class="form-group col">
+            <label for="inputemail">Correo electrónico</label>
+            <input type="email" class="form-control" id="inputemail" placeholder="abc@email.com">
+          </div>
+          <div class="form-group col">
+            <label for="inputAddress1">Dirección</label>
+            <input type="text" class="form-control" id="inputAddress1" placeholder="Dirección residencia">
           </div>
         </div>
-        <button type="submit" class="btn btn-primary">Sign in</button>
+        <div class="row align-items-center p-1">
+          <div class="form-group col">
+            <label for="inputpassword">Contraseña</label>
+            <input type="password" class="form-control" id="inputpassword" placeholder="Contraseña">
+          </div>
+          <div class="form-group col">
+            <label for="inputpassword2">Confirme la contraseña</label>
+            <input type="password" class="form-control" id="inputpassword2" placeholder="Confirme contraseña">
+          </div>
+        </div>
+        <div class="row align-items-center justify-content-center">
+          <div class="btn btn-dark text-white w-50 mt-4 fw-semibold shadow-sm">
+            Ingresar
+          </div>
+        </div>
+
+        
       </form>
-    
-      
+      <div class="d-flex gap-1 justify-content-center mt-2">
+        <div>Volver a la página de inicio</div>
+        <a href="#" class="text-decoration-none text-info fw-semibold"
+          >Inicio</a
+        >
+      </div>
+    </div>
   </body>
 </html>
