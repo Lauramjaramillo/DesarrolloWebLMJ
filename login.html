@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pagina acceso</title>
+    <script src="./script.js" defer></script>
     <link rel="stylesheet" href="styles.css" /> <!--Acá es donde pongo el tema de estilos-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -38,6 +39,7 @@
           class="form-control bg-light"
           type="text"
           placeholder="Usuario"
+          id ="usuario"
         />
       </div>
       <div class="input-group mt-1">
@@ -52,6 +54,7 @@
           class="form-control bg-light"
           type="password"
           placeholder="Contraseña"
+          id="contraseña"
         />
       </div>
       <div class="d-flex justify-content-around mt-1">
@@ -68,7 +71,7 @@
           >
         </div>
       </div>
-      <div class="btn btn-dark text-white w-100 mt-4 fw-semibold shadow-sm">
+      <div class="btn btn-dark text-white w-100 mt-4 fw-semibold shadow-sm" id="button" type="submit">
         Ingresar
       </div>
       <div class="d-flex gap-1 justify-content-center mt-1">
