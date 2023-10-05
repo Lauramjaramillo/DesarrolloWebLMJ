@@ -24,7 +24,19 @@ select, option, i{
     letter-spacing: .1em;
    
   }
-    
+
+  .titulo2 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 5px;
+    padding: 15px 15px; /* Este es como el espacio al lado del titulo */
+    text-align: left;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    color: #1a1a19;
+    /*background-color: #333;*/ /*Acá no le quiero poner fondo */
+    letter-spacing: .1em;
+   
+  }
  
 /* Centrar contenido verticalmente y horizontalmente en el cuerpo */
 .formulario_login {
